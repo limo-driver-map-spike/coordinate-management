@@ -1,0 +1,39 @@
+{
+  "name": "coordinate-management",
+  "version": "1.0.0",
+  "description": "backend service for managing coordinates",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limo-driver-map-spike/coordinate-management.git"
+  },
+  "keywords": [
+    "koa",
+    "coordinates"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/limo-driver-map-spike/coordinate-management/issues"
+  },
+  "homepage": "https://github.com/limo-driver-map-spike/coordinate-management#readme",
+  "dependencies": {
+    "async-redis": "^1.1.7",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-json": "^2.0.2",
+    "koa-route": "^3.2.0",
+    "node-fetch": "^2.6.0",
+    "query-string": "^6.8.1",
+    "redis": "^2.8.0",
+    "websocket": "^1.0.29"
+  },
+  "devDependencies": {
+    "log4js": "^4.4.0",
+    "nodemon": "^1.19.1"
+  }
+}
