@@ -27,10 +27,12 @@
     "koa-bodyparser": "^4.2.1",
     "koa-json": "^2.0.2",
     "koa-route": "^3.2.0",
+    "lodash": "^4.17.13",
     "node-fetch": "^2.6.0",
     "query-string": "^6.8.1",
     "redis": "^2.8.0",
-    "websocket": "^1.0.29"
+    "websocket": "^1.0.29",
+    "ws": "^7.0.1"
   },
   "devDependencies": {
     "log4js": "^4.4.0",
