@@ -35,7 +35,7 @@
     "ws": "^7.0.1"
   },
   "devDependencies": {
-    "log4js": "^4.4.0",
+    "log4js": "^6.4.0",
     "nodemon": "^1.19.1"
   }
 }
